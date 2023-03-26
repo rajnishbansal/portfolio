@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+.main-container{
+    border:1px solid;
+    width:1440px;
+    height:2500px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    
+}
+
+.side-container{
+    /* border: 1px solid ; */
+    width: 20%;
+    height:100%;
+    background-color: #fdd82e;
+    /* position: fixed; */
+}
+
+.content-container{
+    /* outline: auto; */
+    width: 1100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:flex-end; */
+    /* float: right; */
+    /* flex-basis: 80%; */
+    margin-left:3.5%;
+    float: right;
+
+}
+
+
+.dp{
+    width: 90%;
+    height: 10%;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+}
+
+.dp img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.location{
+    text-align: center;
+    border: 1px solid;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    justify-content: center;
+    margin-bottom: 10%;
+    font-size: larger;
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+img{
+    display: inline;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: 10%;
+    height: 80%;
+    width: 15%;
+    margin-top: 1.5%;
+    margin-right: 0;
+}
+
+.location p{
+    width: 80%;
+    margin-left: 0px;
+    /* border: 1px solid; */
+    display: inline;
+    font-size: 18px;
+    
+}
+.nav-container{
+    width: 80%;
+    height: 10%;
+    /* border: 1px solid; */
+    margin-left: 10%;
+    /* margin-bottom: ; */
+    /* outline: auto; */
+    
+}
+
+li a:link{
+    text-decoration: none;    
+}
+
+a{
+    color: black;
+}
+
+li{
+    list-style: none;
+    /* border: 1px solid; */
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    font-size: larger;
+    list-style-type: none;
+    background-color: #fdd82e;    
+}
+
+li:hover{
+    background-color:#f5ebc2;
+}
+/* 
+a:active{
+    background-color:#f5ebc2;
+    color: #f5ebc2;
+}
+
+a:visited{
+    background-color:#f5ebc2;
+} */
+
+.social-icon{
+    width: 70%;
+    border: 1px solid;
+    height: 2%;
+    /* margin-left: 12%; */
+    display: flex;
+    align-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.logo1, .logo2, .logo3{
+    width: 22%;
+    height: 90%;
+    /* border: 1px solid; */
+    margin: auto;
+    /* border-radius: 50%; */
+    
+    
+}
+
+.logo1 img, .logo2 img, .logo3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.logo1 img{
+    padding: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo2 img{
+    padding:0;
+    margin:0;
+    object-fit: cover;
+}
+
+.logo3 img{
+    padding:0;
+    margin:0;
+    object-fit: cover;
+}
+
+
+.name{
+    /* text-align: center; */
+    font-size:70px;    
+    /* color: #26a3dc; */
+    /* background: linear-gradient(143.01deg, #1F3543 21.48%, #2683DC 84.81%); */
+    /* color: linear-gradient(143.01deg, #1F3543 21.48%, #2683DC 84.81%); */
+    /* background: -webkit-linear-gradient(143.01deg, #1F3543 21.48%, #2683DC 84.81%); */
+    background: -webkit-linear-gradient(43.01deg, #2683DC 21.48%, #1F3543 84.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.email{
+    font-size: larger;
+    margin-bottom: 10%;
+
+}
+
+.about{
+    width:95%;
+    height:8%;
+    border:1px solid;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    
+}
+
+.experience{
+    width:95%;
+    height:22%;
+    border:1px solid;
+    margin-bottom: 2%;
+    /* background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%); */
+    border-radius: 10px;
+    
+}
+
+.h1{
+    font-size: 40px;
+    /* border:1px solid; */
+    margin-bottom: 2%;
+    background-color: #26a3dc;
+    color: white;
+    padding-left: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.experience-1, .experience-2, .experience-3{
+    width:98%;
+    height:32%;
+    /* border:1px solid; */
+    margin-bottom: 2%;
+    margin-bottom: 8%;
+    margin-top: 2%;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.content{
+    width:76%;
+    height:100%;
+    /* border:1px solid green; */
+    margin-bottom: 2%;
+    float: left;
+
+}
+
+.company-logo{
+    /* border: 1px solid; */
+    height: 100%;
+    float: right;
+    width: 20%;
+    margin-right: 3%;
+    display: flex;
+}
+
+.company-logo img{
+    height: 90%;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid; */
+    margin: auto;
+    /* border-radius: 30px; */
+    
+}
+
+.job-title{
+    width: 99%;
+    height: 14%;
+    /* border: 1px solid; */
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 2px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.company-name{
+    width: 99%;
+    height: 12%;
+    /* border: 1px solid; */
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 2px;
+    font-size: 20px;
+    margin-bottom:10px;
+    margin-top: 5px;
+}
+
+.jd{
+    width: 99%;
+    height: 50%;
+    /* border: 1px solid; */
+    padding: 2px;
+    font-size: 18px;
+    
+}
+
+.experience-1 .jd{
+    margin-bottom: 10px;
+}
+
+.experience-2 .jd{
+    height:40% ;
+}
+
+.duration{
+    width: 99%;
+    height: 12%;
+    /* border: 1px solid; */
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 2px;
+}
+
+
+.education{
+    width:95%;
+    height:17%;
+    border:1px solid ;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    border-radius: 10px;
+    
+}
+
+.education1, .education2{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 40%;
+    /* margin-bottom: 1px; */
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.education1 p, .education2 p{
+    /* border: 1px solid; */
+    padding: 3px;
+    /* margin-bottom: 1%; */
+    font-size:20px;
+}
+
+.education1 .university, .education2 .university{
+    font-size:30px;
+}
+
+.projects{
+    width:95%;
+    height:15%;
+    border:1px solid;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border-radius: 10px;
+    
+}
+
+.project1, .project2, .project3{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid; */
+    margin-bottom: 1%;
+    padding-left: 10px;
+
+}
+
+/* .projects p{
+    /* border: 1px solid; 
+ 
+} */
+
+.project-name{
+    font-size: 25px;
+}
+
+.project-link{
+    height: 30px;
+    padding: 2px;
+}
+
+.skills{
+    width:95%;
+    height:15%;
+    border:1px solid;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    border-radius: 10px;
+   
+}
+
+.skill1, .skill2, .skill3{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid; */
+    margin-bottom: 2%;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.skill-name{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid; */
+    margin-bottom: 0.5%;
+}
+
+.skill-bar{
+    height: 40%;
+    width: 90%;
+    border: 1px solid;
+    background-color: rgb(250, 248, 248);
+}
+
+.progress1, .progress2, .progress3 {
+    /* background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); */
+    background-color: #fdd82e; 
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    color: black;
+    padding-left: 10px;
+    
+}
+
+.progress1{
+width: 70%;
+}
+
+.progress2{
+    width: 50%;
+}
+
+.progress3{
+    width: 30%;
+}
+/* .skill-bar progress{
+    height: 100%;
+    width: 80%;
+} */
+
+.interests{
+    width:95%;
+    height:7%;
+    border:1px solid;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.interests p, .about p{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: azure;
+    height: 150px;
+    border: 1px solid;
+}
+
+/* .trial{
+    width: 40%;
+    height: 30%;
+    border: 1px solid;
+    margin: auto;
+}
+
+.trial .fa{
+font-size: 80px;
+margin-left: 20px;
+border: 1px solid;
+} */
