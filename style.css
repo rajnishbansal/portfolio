@@ -201,8 +201,12 @@ a:visited{
 
 .email{
     font-size: larger;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
+}
 
+.phone{
+    font-size: larger;
+    margin-bottom: 10%;
 }
 
 .about{
